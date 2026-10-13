@@ -1,0 +1,15 @@
+{
+  "id": "v002",
+  "name": "版本 2 · HOME 23° / KP 6",
+  "parent": "v001",
+  "params": {
+    "home_deg": 23.0,
+    "kp": 6.0,
+    "com_x_mm": -7.0,
+    "root_z_mm": 0.0,
+    "stand_z_mm": 139.30824915078682
+  },
+  "notes": "依使用者確認升級：髖 pitch／踝 HOME 幅度 23°（保留左右符號），BAM kp_fw=6，軀幹局部 COM X=-7 mm，根部 HOME Z=0。重新計算站立高度及 additive reset 偏移。尚未開始訓練或實機驗證。",
+  "source_digest": "e28da35ed68a453edb6145bab15c5a0555e0426955374d2385e84dca0d6abee5",
+  "purpose": "Parameter record only; local source snapshot and trained models are excluded from Git."
+}
