@@ -1,0 +1,15 @@
+# Allowlist: only reviewed application sources enter Git.
+/*
+!/.gitignore
+!/README.md
+!/server.py
+!/versions.py
+!/play_local.py
+!/index.html
+!/test_studio.py
+!/Start Studio.cmd
+!/recipes/
+__pycache__/
+*.pyc
+!/docs/
+!/export_pages.py
