@@ -1,0 +1,15 @@
+{
+  "id": "v001",
+  "name": "版本 1 · 現有訓練",
+  "parent": null,
+  "params": {
+    "home_deg": 24.0,
+    "kp": 5.0,
+    "com_x_mm": -14.0,
+    "root_z_mm": 139.43900000000002,
+    "stand_z_mm": 139.43900000000002
+  },
+  "notes": "正在運行的現有訓練。source 是匯入當下的原始碼快照，未證明與此輪啟動時完全相同；實際訓練設定以 imported_run_params 為準。",
+  "source_digest": "88f2583d492699ee6e2f475efca80d28955b01b4230110c6f997f03a053ff543",
+  "purpose": "Parameter record only; local source snapshot and trained models are excluded from Git."
+}
