@@ -130,7 +130,7 @@ def start(kind,data):
         n=int(data.get('num_envs',128)); it=int(data.get('iterations',1000))
         if not 1<=n<=4096 or not 1<=it<=100000: raise ValueError('環境數或輪數超出允許範圍')
         args=[str(PY),str(REPO/'.venv/bin/train'),task,'--env.scene.num-envs',str(n),'--agent.max-iterations',str(it),'--agent.logger','tensorboard']
-        if cp: args += ['--agent.resume','--agent.load-run',cp.parent.name,'--agent.load-checkpoint',cp.name]
+        if cp: args += ['--agent.resume','True','--agent.load-run',cp.parent.name,'--agent.load-checkpoint',cp.name]
     elif kind=='play':
         if available(8093): raise ValueError('播放埠 8093 已被使用；現有播放仍可在左側觀看')
         args=[str(PY),str(ROOT/'play_local.py'),task,str(cp)]
